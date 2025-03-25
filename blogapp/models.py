@@ -3,7 +3,7 @@ from django.db import models
 class BlogPost(models.Model):
     
     CATEGORY = (('science', '科学のこと'),
-                ('ddilylife', '日常のこと'),
+                ('dailylife', '日常のこと'),
                 ('music','音楽のこと'))
     
     title = models.CharField(
